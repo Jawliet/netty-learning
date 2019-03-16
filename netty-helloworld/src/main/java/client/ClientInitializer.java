@@ -9,7 +9,7 @@ import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 
 /**
- * @author JiangJian on 2019/3/5 18:25
+ * @author Jawliet on 2019/3/5 18:25
  */
 public class ClientInitializer extends ChannelInitializer<SocketChannel> {
     private static final StringDecoder DECODER = new StringDecoder();

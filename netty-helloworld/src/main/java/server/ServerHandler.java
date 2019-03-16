@@ -14,7 +14,7 @@ import java.util.Date;
  * 而且服务端可能有多个客户端进行连接，并且每一个客户端请求的数据格式都不一致，这时便可以进行相应的处理。
  * 客户端根据情况可以继承SimpleChannelInboundHandler类。好处是直接指定好传输的数据格式，就不需要再进行格式的转换了
  *
- * @author JiangJian on 2019/3/5 18:35
+ * @author Jawliet on 2019/3/5 18:35
  */
 @ChannelHandler.Sharable
 public class ServerHandler extends SimpleChannelInboundHandler<String> {

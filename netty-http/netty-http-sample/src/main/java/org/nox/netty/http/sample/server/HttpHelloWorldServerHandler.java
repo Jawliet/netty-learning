@@ -1,4 +1,4 @@
-package server;
+package org.nox.netty.http.sample.server;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -11,8 +11,8 @@ import io.netty.util.AsciiString;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.CharEncoding;
 import org.apache.commons.codec.Charsets;
-import pojo.User;
-import serialize.impl.JSONSerializer;
+import org.nox.netty.http.sample.pojo.User;
+import org.nox.netty.http.sample.serialize.impl.JSONSerializer;
 
 import java.util.Date;
 import java.util.List;
@@ -22,7 +22,7 @@ import static io.netty.handler.codec.http.HttpResponseStatus.OK;
 import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 
 /**
- * @author JiangJian on 2019/3/6 15:24
+ * @author Jawliet on 2019/3/6 15:24
  */
 @Slf4j
 public class HttpHelloWorldServerHandler extends SimpleChannelInboundHandler<HttpObject> {

@@ -16,7 +16,7 @@ import javax.annotation.PreDestroy;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author JiangJian on 2019/3/7 17:24
+ * @author Jawliet on 2019/3/7 17:24
  */
 @Service("nettyClient")
 @Slf4j

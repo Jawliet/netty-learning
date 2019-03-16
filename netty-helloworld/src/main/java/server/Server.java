@@ -9,7 +9,7 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
 /**
- * @author JiangJian on 2019/3/5 18:34
+ * @author Jawliet on 2019/3/5 18:34
  */
 public final class Server {
     public  static void main(String[] args) throws Exception {

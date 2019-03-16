@@ -6,7 +6,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 
 /**
- * @author JiangJian on 2019/3/13 18:48
+ * @author Jawliet on 2019/3/13 18:48
  */
 public class JSONDecoder extends LengthFieldBasedFrameDecoder {
 

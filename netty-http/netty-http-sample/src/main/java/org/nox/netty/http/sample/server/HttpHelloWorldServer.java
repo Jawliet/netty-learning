@@ -1,4 +1,4 @@
-package server;
+package org.nox.netty.http.sample.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.Channel;
@@ -11,7 +11,7 @@ import io.netty.handler.logging.LoggingHandler;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author JiangJian on 2019/3/6 15:22
+ * @author Jawliet on 2019/3/6 15:22
  */
 @Slf4j
 public class HttpHelloWorldServer {

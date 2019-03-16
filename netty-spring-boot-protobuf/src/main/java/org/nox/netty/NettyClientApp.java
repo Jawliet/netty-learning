@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * @author JiangJian on 2019/3/7 17:20
+ * @author Jawliet on 2019/3/7 17:20
  */
 @SpringBootApplication
 @ComponentScan({"org.nox.netty.client"})

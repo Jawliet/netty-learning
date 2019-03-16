@@ -11,7 +11,7 @@ import org.nox.netty.protobuf.UserMsg;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author JiangJian on 2019/3/7 17:30
+ * @author Jawliet on 2019/3/7 17:30
  */
 @Slf4j
 public class NettyServerHandler extends ChannelInboundHandlerAdapter {

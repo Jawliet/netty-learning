@@ -13,7 +13,7 @@ import org.nox.netty.protobuf.UserMsg;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author JiangJian on 2019/3/7 17:25
+ * @author Jawliet on 2019/3/7 17:25
  */
 public class NettyClientInitializer extends ChannelInitializer<SocketChannel> {
 

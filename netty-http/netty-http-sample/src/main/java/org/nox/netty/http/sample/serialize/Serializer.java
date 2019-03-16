@@ -1,7 +1,7 @@
-package serialize;
+package org.nox.netty.http.sample.serialize;
 
 /**
- * @author JiangJian on 2019/3/6 15:20
+ * @author Jawliet on 2019/3/6 15:20
  */
 public interface Serializer {
     /**

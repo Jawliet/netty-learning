@@ -1,10 +1,10 @@
-package serialize.impl;
+package org.nox.netty.http.sample.serialize.impl;
 
 import com.alibaba.fastjson.JSON;
-import serialize.Serializer;
+import org.nox.netty.http.sample.serialize.Serializer;
 
 /**
- * @author JiangJian on 2019/3/6 15:21
+ * @author Jawliet on 2019/3/6 15:21
  */
 public class JSONSerializer implements Serializer {
     @Override

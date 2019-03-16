@@ -9,7 +9,7 @@ import io.netty.handler.codec.MessageToMessageEncoder;
 import java.util.List;
 
 /**
- * @author JiangJian on 2019/3/13 18:48
+ * @author Jawliet on 2019/3/13 18:48
  */
 public class JSONEncoder extends MessageToMessageEncoder {
 

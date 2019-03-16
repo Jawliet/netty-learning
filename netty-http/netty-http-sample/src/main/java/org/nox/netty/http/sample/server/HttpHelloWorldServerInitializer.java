@@ -1,4 +1,4 @@
-package server;
+package org.nox.netty.http.sample.server;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
@@ -8,7 +8,7 @@ import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.codec.http.HttpServerExpectContinueHandler;
 
 /**
- * @author JiangJian on 2019/3/6 15:23
+ * @author Jawliet on 2019/3/6 15:23
  */
 public class HttpHelloWorldServerInitializer extends ChannelInitializer<SocketChannel> {
     @Override

@@ -6,7 +6,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 
 /**
  * 注解 {@link io.netty.channel.ChannelHandler.Sharable} 主要是为了多个handler可以被多个channel安全地共享，也就是保证线程安全
- * @author JiangJian on 2019/3/5 18:26
+ * @author Jawliet on 2019/3/5 18:26
  */
 @ChannelHandler.Sharable
 public class ClientHandler extends SimpleChannelInboundHandler<String> {

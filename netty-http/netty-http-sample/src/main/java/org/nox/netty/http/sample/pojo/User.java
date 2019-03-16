@@ -1,4 +1,4 @@
-package pojo;
+package org.nox.netty.http.sample.pojo;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,7 +6,7 @@ import lombok.Setter;
 import java.util.Date;
 
 /**
- * @author JiangJian on 2019/3/6 15:18
+ * @author Jawliet on 2019/3/6 15:18
  */
 public class User {
     @Getter
